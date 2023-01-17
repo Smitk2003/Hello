@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+
+
+header{
+    padding: 0 50px; 
+    background-color:#fff;   
+} 
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+}
+
+.main_menu{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.main_menu li{
+    position: relative;
+}
+
+.main_menu li a{
+    display: block;
+    padding: 5px;
+    color: #cda53f;
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: normal;
+    border-radius: 5%;
+
+    text-decoration: none;
+    line-height: 30px;
+    
+
+}
+
+.main_menu li:hover>a{
+    color: #fff; 
+    background-color:#cda53f;
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.tex{
+
+    border-width: 20em;
+    margin-left: 30px;
+}
+
+.img1{
+    
+    z-index: 1;
+      
+}
+
+
+.imgtxt{
+    margin: 60px;
+    padding: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #616057 ;
+    position: absolute;
+    top: 20%;
+    font-size: 80px;
+    text-align: center;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.347);
+    height: 650px;
+    width: 600px; 
+    margin-left: 80px;
+}
+span{
+    color: black;
+    font-size: 25px;
+}
+
+#extra{
+    color:#616057;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:lighter;
+    text-align: center;
+    margin: 150px 0px 30px 0px;
+}
+.ourservices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.simg{
+    padding: 1px;
+}
+.services{
+    box-sizing: border-box;
+    height: 800px ;
+    width: calc(32.33% - 20px);
+    border: solid 1px;
+    border-color:#CCCAC4;
+    margin: 10px;
+    margin-bottom: 80px;
+    padding: 1px;
+}
+
+
+.servicesname{
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+ 
+    line-height: 50px;
+    font-weight: lighter;
+}
+hr{
+    border-top: solid 1px;
+    border-left: #fff;
+    border-bottom: #fff;
+    width: 100%;
+    margin-top: 25px;
+    color: #CCCAC4 ;
+}
+.rate{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #616057;
+}
+.btn1{
+    margin-top: 15px;
+    color: white;
+    background-color: #616057;
+    font-family: 'Cormorant Garamond', serif;;
+    border: none;   
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+        /* Footer */
+
+.footer{
+    padding: 40px 200px 0 200px;
+    background-color: rgb(255, 247, 179, .7);;
+    height: 300px;
+    margin: 30px 30px 0 30px;
+    
+}
+
+.fnltxt{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    color: #616057;
+}
+.last{
+    display: flex;
+    align-items: center;
+    margin: 0 120px;
+}
+.ltxt{
+ 
+  
+    background-color: #616057;
+    text-align: center;
+    padding: 200px 0;
+    height: 500px;
+    width: 650px; 
+    color:#fffffe;
+    font-size: 30px;
+    line-height: 40px;
+  
+}
+#p1{
+    font-family: 'Poppins', sans-serif;
+}
+#p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#p3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.ltxt2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+}
+#l11{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#l12{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#l13{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#l21{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+#l22{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+#l31{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#l32{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#l33{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.l1{
+    line-height: 40px;
+}
+
+.l2{
+    line-height: 40px;
+    
+}
+
+
+.l3{
+    line-height: 40px;
+}
+
+.licon{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px;
+
+
+}
+
+.itxt{
+    color: #616057;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+
+
+}
+.lic{
+    padding: 0 8px;
+    color: #616057;
+   
+}
+
+    /* Book Online */
+
+
+#extra2{
+    color: #616057;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:lighter;
+    
+}
+
+.ourservices2{
+    
+    margin: 20px 140px 0 140px;
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    background-color: rgb(255, 247, 179, .7);
+  
+}
+.simg2{
+    padding: 1px;
+}
+.services2{
+    box-sizing: border-box;
+    height: 700px;
+    width: calc(30.33% -px);
+    border: solid 1px;
+    border-color:#ffffff;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 1px;
+    background-color: #ffffff;
+
+}
+
+
+.servicesname2{
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+    line-height: 50px;
+    font-weight: lighter;
+}
+hr{
+    border-top: solid 1px;
+    border-left: #fff;
+    border-bottom: #fff;
+    width: 100%;
+    margin-top: 25px;
+    color: #CCCAC4 ;
+}
+.rate2{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #616057;
+}
+.btn2{
+    margin-top: 15px;
+    color: white;
+    background-color: #616057;
+    font-family: 'Cormorant Garamond', serif;;
+    border: none;   
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+
+  /* Gallary */
+
+
+
+
+
+
+
+
